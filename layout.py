@@ -1,5 +1,5 @@
 import pip
-pip.main(['install', '-r', 'requirements.txt'])
+pip.main(['install', '-r', 'requirement.txt'])
 
 import streamlit as st
 from textblob import TextBlob
