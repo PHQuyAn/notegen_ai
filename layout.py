@@ -1,3 +1,4 @@
+!pip install -r "requirement.txt"
 import streamlit as st
 from textblob import TextBlob
 from enhance_note_backend import *
