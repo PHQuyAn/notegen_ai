@@ -1,4 +1,6 @@
-!pip install -r "requirement.txt"
+import pip
+pip.main(['install', '-r', 'requirements.txt'])
+
 import streamlit as st
 from textblob import TextBlob
 from enhance_note_backend import *
