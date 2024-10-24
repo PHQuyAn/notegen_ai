@@ -2,7 +2,7 @@ import pip
 pip.main(['install', '-r', 'requirement.txt'])
 
 import streamlit as st
-from textblob import TextBlob
+#from textblob import TextBlob
 from enhance_note_backend import *
 
 # Tạo giao diện cho người dùng nhập ghi chú
