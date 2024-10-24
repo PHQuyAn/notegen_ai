@@ -1,8 +1,11 @@
-import pip
-pip.main(['install', '-r', 'requirement.txt'])
-
 import streamlit as st
-#from textblob import TextBlob
+import pip
+pip.main(['install', '-r', 'textblob'])
+pip.main(['install', '-r', 'autocorrect'])
+pip.main(['install', '-r', 'transformers'])
+pip.main(['install', '-r', 'huggingface'])
+
+from textblob import TextBlob
 from enhance_note_backend import *
 
 # Tạo giao diện cho người dùng nhập ghi chú
