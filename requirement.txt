@@ -1,3 +1,4 @@
 autocorrect
 transformers
 huggingface
+textblob
