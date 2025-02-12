@@ -25,10 +25,11 @@ with col1:
     note = st.text_area("Take note here:", value=st.session_state['note'], height=300)
 
     # Tạo một text input để người dùng nhập prompt chỉnh sửa ghi chú
-    prompt = st.text_input("Take prompt to enhance note:")
+    # prompt = st.text_input("Take prompt to enhance note:")
+    prompt = "Summarize this article so that readers can grasp the main idea quickly."
 
     # Nút để thực hiện chỉnh sửa
-    if st.button("Enhance note"):
+    if st.button("Summary Note!"):
         if note and prompt:
             # Giả lập xử lý chỉnh sửa với prompt
             edited_note = prompt_enhance_note(prompt, note)
